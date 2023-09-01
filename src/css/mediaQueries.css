@@ -10,17 +10,23 @@
     }
 
     .article {
-        height: calc(1rem * 28);
+        height: 28rem;
 
         width: 60vw;
         margin: 7rem auto;
     }
 
-    .navBar {
-        height: 4rem;
+    .navBar > * {
+        height: 3rem;
     }
 
     .logoTitle {
         height: 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .article {
+        height: 35rem;
     }
 }

@@ -1,7 +1,7 @@
 .navBar {
     background-color: var(--color-1);
 
-    height: 3rem;
+    height: 4rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -11,11 +11,11 @@
 }
 
 .navBar > * {
-    height: 2rem;
+    height: 4rem;
 }
 
 .logoTitle {
-    height: 3rem; /* background-color: rgba(0, 0, 0, 0); */
+    height: 100%; /* background-color: rgba(0, 0, 0, 0); */
 }
 
 .titleContainer {
@@ -27,7 +27,6 @@
         rgb(128, 124, 124),
         var(--color-1)
     );
-
-    height: max-content;
+    height: 130%;
     width: 16rem;
 }
