@@ -1,7 +1,8 @@
-import React from "react";
+import { ReactNode } from "react";
+
 import { NavBar } from "../Header/NavBar/NavBar";
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: { children: ReactNode }) => {
     return (
         <>
             <header>

@@ -1,7 +1,7 @@
-import image1 from "../assets/amanda-dalbjorn-UbJMy92p8wk-unsplash.webp";
+import image3 from "../assets/amanda-dalbjorn-UbJMy92p8wk-unsplash.webp";
 import image2 from "../assets/jainath-ponnala-BIHgNEaM394-unsplash.webp";
-import image3 from "../assets/martin-sanchez-JQ0YVavMKLo-unsplash.webp";
-import image4 from "../assets/nicolas-gonzalez-183F_vNaN8A-unsplash.webp";
+import image4 from "../assets/martin-sanchez-JQ0YVavMKLo-unsplash.webp";
+import image1 from "../assets/nicolas-gonzalez-183F_vNaN8A-unsplash.webp";
 
 interface NewsArticle {
     id: number;

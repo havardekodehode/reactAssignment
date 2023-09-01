@@ -7,7 +7,9 @@ export function NavBar() {
     return (
         <div className="navBar">
             <Logo />
-            <img className="logoTitle" src={siteTitle} />
+            <div className="titleContainer">
+                <img className="logoTitle" src={siteTitle} />
+            </div>
             <Menu />
         </div>
     );

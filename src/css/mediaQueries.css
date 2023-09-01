@@ -3,3 +3,24 @@
         --font-size: 16px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    :root {
+        --font-size: 24px;
+    }
+
+    .article {
+        height: calc(1rem * 28);
+
+        width: 60vw;
+        margin: 7rem auto;
+    }
+
+    .navBar {
+        height: 4rem;
+    }
+
+    .logoTitle {
+        height: 4rem;
+    }
+}
