@@ -47,3 +47,53 @@ Using Components with React.
 ## Acknowledgments
 
 Thanks to Lars G, who assigned this task.
+
+├─ .gitignore
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public
+│ └─ vite.svg
+├─ README.md
+├─ src
+│ ├─ App.tsx
+│ ├─ assets
+│ │ ├─ amanda-dalbjorn-UbJMy92p8wk-unsplash.webp
+│ │ ├─ jainath-ponnala-BIHgNEaM394-unsplash.webp
+│ │ ├─ martin-sanchez-JQ0YVavMKLo-unsplash.webp
+│ │ ├─ material-symbols_computer-outline.svg
+│ │ ├─ nicolas-gonzalez-183F_vNaN8A-unsplash.webp
+│ │ ├─ ph_hamburger.svg
+│ │ ├─ react.svg
+│ │ ├─ Screen Shot 2023-09-01 at 14.38.58.png
+│ │ └─ siteTitle.png
+│ ├─ components
+│ │ ├─ Header
+│ │ │ ├─ Logo
+│ │ │ │ └─ Logo.tsx
+│ │ │ ├─ Menu
+│ │ │ │ └─ Menu.tsx
+│ │ │ └─ NavBar
+│ │ │ ├─ NavBar.css
+│ │ │ └─ NavBar.tsx
+│ │ ├─ Layouts
+│ │ │ └─ Layout.tsx
+│ │ └─ Main
+│ │ └─ Articles
+│ │ ├─ articles.css
+│ │ └─ Articles.tsx
+│ ├─ css
+│ │ ├─ mediaQueries.css
+│ │ └─ variables.css
+│ ├─ Data
+│ │ └─ articlesData.tsx
+│ ├─ index.css
+│ ├─ main.tsx
+│ └─ vite-env.d.ts
+├─ tsconfig.json
+├─ tsconfig.node.json
+└─ vite.config.ts
+
+```
+
+```
