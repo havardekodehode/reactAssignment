@@ -1,0 +1,11 @@
+:root {
+    /* Palette */
+    --color-1: #e0e1dd;
+    --color-2: #778da9;
+    --color-3: #415a77;
+    --color-4: #1b263b;
+    --color-5: #0d1b2a;
+    /* Font */
+    --font-size: 16px;
+    --font-family: "handjet";
+}

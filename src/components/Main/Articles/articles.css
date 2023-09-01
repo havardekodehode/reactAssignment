@@ -1,0 +1,49 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Style for each article container */
+.article {
+    list-style: none;
+    width: 85vw; /* 90% width of the viewport */
+    height: 9rem; /* 4rem height (based on 32px root font size) */
+    margin: 3.5rem auto; /* Adjust margin as needed */
+}
+
+/* Style for the background image */
+.article-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.article-image::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style for the title */
+.article-title {
+    margin: 0.5rem;
+    color: white;
+    font-size: 1.25rem; /* Adjust font size as needed */
+    z-index: 1;
+}
+
+/* Style for the date */
+.article-date {
+    margin: 0.5rem;
+    color: white;
+    font-size: 1rem; /* Adjust font size as needed */
+    z-index: 1;
+}
